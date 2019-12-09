@@ -1,0 +1,46 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "arrow-parens": [
+      "error",
+      "as-needed",
+      {
+        "requireForBlockBody": false
+      }
+    ],
+    "comma-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "eol-last": [
+      "error",
+      "always"
+    ],
+    "function-paren-newline": "warn",
+    "implicit-arrow-linebreak": "warn",
+    "max-len": "warn",
+    "no-console": "error",
+    "no-multiple-empty-lines": "warn",
+    "no-undef": "error",
+    "no-underscore-dangle": "off",
+    "no-unused-vars": "error",
+    "space-in-parens": [
+      "error",
+      "never"
+    ],
+    "space-infix-ops": [
+      "error",
+      {
+        "int32Hint": false
+      }
+    ]
+  }
+}
