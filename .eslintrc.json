@@ -27,7 +27,7 @@
     "function-paren-newline": "warn",
     "implicit-arrow-linebreak": "warn",
     "max-len": "warn",
-    "no-console": "error",
+    "no-console": "off",
     "no-multiple-empty-lines": "warn",
     "no-undef": "error",
     "no-underscore-dangle": "off",
