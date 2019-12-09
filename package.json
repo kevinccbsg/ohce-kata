@@ -1,0 +1,29 @@
+{
+  "name": "ohce-kata",
+  "version": "1.0.0",
+  "description": "ohce CLI application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinccbsg/ohce-kata.git"
+  },
+  "keywords": [
+    "kata",
+    "guidesmiths",
+    "ohce",
+    "node",
+    "jest"
+  ],
+  "author": "Kevin Martínez (kevin.martinez@guidesmiths.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinccbsg/ohce-kata/issues"
+  },
+  "homepage": "https://github.com/kevinccbsg/ohce-kata#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
