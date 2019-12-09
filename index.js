@@ -1,4 +1,4 @@
-const { reverse, isPalindrome } = require('./lib');
+const { reverse, isPalindrome, greets } = require('./lib');
 
 const procesor = input => {
   if (isPalindrome(input)) {
@@ -10,4 +10,13 @@ const procesor = input => {
   console.log(reverseInput);
 };
 
-module.exports = { procesor };
+const initGreets = args => {
+  const name = args[2];
+  const time = new Date().getTime();
+
+  const greeting = greets({ time, name });
+
+  return console.log(greeting);
+};
+
+module.exports = { procesor, initGreets };
