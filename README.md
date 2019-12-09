@@ -1,7 +1,6 @@
 # Ohce-kata
 
 [![CircleCI](https://circleci.com/gh/kevinccbsg/ohce-kata.svg?style=svg)](https://circleci.com/gh/kevinccbsg/ohce-kata)
-
 [![Known Vulnerabilities](https://snyk.io/test/github/kevinccbsg/ohce-kata/badge.svg)](https://snyk.io/test/github/kevinccbsg/ohce-kata)
 
 
