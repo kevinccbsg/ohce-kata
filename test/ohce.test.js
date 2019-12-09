@@ -1,10 +1,18 @@
-const { procesor } = require('..');
+const { procesor, initGreets } = require('..');
 
 const spy = jest.spyOn(global.console, 'log');
 
 describe('Ohce', () => {
   beforeEach(() => {
     spy.mockClear();
+  });
+
+
+  it('should print greeting in console', () => {
+    const args = [undefined, null, 'Ismael'];
+    initGreets(args);
+    expect(console.log).toBeCalled();
+    expect(console.log).toHaveBeenCalledWith(expect.stringMatching(/Ismael/));
   });
 
   it('should print reverse input in console', () => {
