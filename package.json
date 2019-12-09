@@ -7,6 +7,9 @@
     "lint": "./node_modules/.bin/eslint .",
     "test": "jest"
   },
+  "bin": {
+    "ohce": "./bin/ohce.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevinccbsg/ohce-kata.git"
