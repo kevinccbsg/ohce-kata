@@ -1,5 +1,5 @@
 {
-  "name": "ohce-kata",
+  "name": "ohce",
   "version": "1.0.0",
   "description": "ohce CLI application",
   "main": "index.js",
