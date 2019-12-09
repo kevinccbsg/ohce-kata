@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 const readline = require('readline');
-const { procesor } = require('..');
+const init = require('..');
+
+const { greet, processor } = init(process.argv);
+
+greet();
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -8,4 +12,4 @@ const rl = readline.createInterface({
   terminal: false,
 });
 
-rl.on('line', procesor);
+rl.on('line', processor);
