@@ -1,3 +1,4 @@
+const { isPalindrome } = require('../../lib');
 
 describe('isPalindrome method tests', () => {
   it('should return false when it is not a palindrome', () => {
