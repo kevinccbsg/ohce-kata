@@ -15,8 +15,7 @@
     "url": "git+https://github.com/kevinccbsg/ohce-kata.git"
   },
   "keywords": [
-    "kata",
-    "guidesmiths",
+    "cli",
     "ohce",
     "node",
     "jest"
