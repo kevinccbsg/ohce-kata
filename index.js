@@ -3,7 +3,7 @@ const pipe = require('./utils/pipe');
 
 const init = args => {
   const name = args[2];
-  const time = new Date().getTime();
+  const time = new Date().getHours();
 
   const _isPalindrome = input => {
     if (isPalindrome(input)) console.log('¡Bonita palabra!');
