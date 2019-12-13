@@ -1,6 +1,6 @@
 {
   "name": "ohce",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "ohce CLI application",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "node",
     "jest"
   ],
-  "author": "Kevin Martínez (kevin.martinez@guidesmiths.com)",
+  "author": "Kevin Martínez (kevin.martinez@guidesmiths.com), Ismael Bakkali (ismael.bakkali@guidesmiths.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kevinccbsg/ohce-kata/issues"
