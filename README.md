@@ -32,6 +32,9 @@ $ hola
 $ oto
 > oto
 > ¡Bonita palabra!
+$ Roma ni se conoce sin oro, ni se conoce sin amor
+> Roma ni se conoce sin oro, ni se conoce sin amor
+> ¡Bonita palabra!
 $ stop
 > pots
 $ Stop!
